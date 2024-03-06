@@ -9,6 +9,7 @@ div {
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    width: 100%;
 }
 nav {
     display: flex;
