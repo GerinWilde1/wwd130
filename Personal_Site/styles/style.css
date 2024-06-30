@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #6f7364;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text {
+    width: 60%;
+}
+
+.text p {
+    height: 20px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+.image-large {
+    width: 35%;
+    height: 300px;
+    background-color: #ccc;
+}
+
+footer{
+    background-color: #fcbf49;
+    color: black;
+    font-family:Times-New-Roman, Georgia, Brush Script MT;
+    margin-top: 200px;
+}
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-family:Helvetica, Arial, sans-serif;
+    padding: 25px 50px;
+}
+footer a:hover{
+    color: black;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family:Helvetica, Arial, sans-serif;
+}  
+footer p a:hover {
+    text-decoration: underline;
+    font-family:Helvetica, Arial, sans-serif;
+}    
+footer .social img{
+    padding-top: 15px;
+}
